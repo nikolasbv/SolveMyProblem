@@ -37,8 +37,8 @@ solveMyProblem is a web-based service targeting users who need to solve computat
 ### Running with Docker
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/ntua/saas2024-21.git
-   cd saas2024-21
+   git clone https://github.com/nikolasbv/SolveMyProblem.git
+   cd SolveMyProblem
    ```
 
 2. **Ensure Docker is Installed:**
@@ -80,52 +80,52 @@ solveMyProblem is a web-based service targeting users who need to solve computat
 
 ### Accounts Service
 - Manages user accounts, including registration, login, and admin user creation.
-- [Accounts Service README](https://github.com/ntua/saas2024-21/tree/main/accounts-service/README.md)
+- [Accounts Service README](https://github.com/nikolasbv/SolveMyProblem/tree/main/accounts-service/README.md)
 
 ### Add Credits Service
 - Handles adding credits to user accounts.
-- [Add Credits Service README](https://github.com/ntua/saas2024-21/tree/main/add-credits-service/README.md)
+- [Add Credits Service README](https://github.com/nikolasbv/SolveMyProblem/tree/main/add-credits-service/README.md)
 
 ### Admin CLI Service
 - Handles the creation of a user with Admin Privileges
-- [Admin CLI Service README](https://github.com/ntua/saas2024-21/tree/main/admin-cli/README.md)
+- [Admin CLI Service README](https://github.com/nikolasbv/SolveMyProblem/tree/main/admin-cli/README.md)
 
 ### Log Management Service
 - Manages logs and analytics, communicating with the Results Management and Accounts services.
-- [Log Management Service README](https://github.com/ntua/saas2024-21/tree/main/log-management-service/README.md)
+- [Log Management Service README](https://github.com/nikolasbv/SolveMyProblem/tree/main/log-management-service/README.md)
 
 ### Modify Submissions Service
 - Handles creating, updating, and deleting user submissions.
-- [Modify Submissions Service README](https://github.com/ntua/saas2024-21/tree/main/modify-submissions-service/README.md)
+- [Modify Submissions Service README](https://github.com/nikolasbv/SolveMyProblem/tree/main/modify-submissions-service/README.md)
 
 ### Problem Issue Service
 - Manages problems ready for execution, calculating costs, and sending problems for execution.
-- [Problem Issue Service README](https://github.com/ntua/saas2024-21/tree/main/problem-issue-service/README.md)
+- [Problem Issue Service README](https://github.com/nikolasbv/SolveMyProblem/tree/main/problem-issue-service/README.md)
 
 ### Results Management Service
 - Stores and provides access to problem execution results.
-- [Results Management Service README](https://github.com/ntua/saas2024-21/tree/main/results-management-service/README.md)
+- [Results Management Service README](https://github.com/nikolasbv/SolveMyProblem/tree/main/results-management-service/README.md)
 
 ### Solver Service
 - Solves the problems it receives using provided parameters.
-- [Solver Service README](https://github.com/ntua/saas2024-21/tree/main/solver-service/README.md)
+- [Solver Service README](https://github.com/nikolasbv/SolveMyProblem/tree/main/solver-service/README.md)
 
 ### Submissions Service
 - Manages user submissions and provides information to other services.
-- [Submissions Service README](https://github.com/ntua/saas2024-21/tree/main/submissions-service/README.md)
+- [Submissions Service README](https://github.com/nikolasbv/SolveMyProblem/tree/main/submissions-service/README.md)
 
 ### Solver Wrapper Service
 - Sends problems for execution to the appropriate solver.
-- [Solver Wrapper Service README](https://github.com/ntua/saas2024-21/tree/main/solver-wrapper-service/README.md)
+- [Solver Wrapper Service README](https://github.com/nikolasbv/SolveMyProblem/tree/main/solver-wrapper-service/README.md)
 
 ### Front-end Service
 - Provides the user interface for the application.
-- [Front-end Service README](https://github.com/ntua/saas2024-21/tree/main/front-end/solve_my_problem/README.md)
+- [Front-end Service README](https://github.com/nikolasbv/SolveMyProblem/tree/main/front-end/solve_my_problem/README.md)
 
 ## Stress Testing
 
 ### Overview
-Stress testing for the solveMyProblem project was conducted using Apache JMeter to simulate various load conditions and observe the performance and stability of our services under high traffic. Detailed information and test scripts can be found in the [Stress Tests README](https://github.com/ntua/saas2024-21/tree/main/stress_tests/README.md).
+Stress testing for the solveMyProblem project was conducted using Apache JMeter to simulate various load conditions and observe the performance and stability of our services under high traffic. Detailed information and test scripts can be found in the [Stress Tests README](https://github.com/nikolasbv/SolveMyProblem/tree/main/stress_tests/README.md).
 
 ## Diagrams
 
