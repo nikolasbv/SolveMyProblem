@@ -1,0 +1,30 @@
+{
+  "name": "modify-submissions-service",
+  "version": "1.0.0",
+  "description": "microservice responsible for creating new submissions or modifying already existing ones",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ntua/saas2024-21.git"
+  },
+  "author": "Haris Papadakis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ntua/saas2024-21/issues"
+  },
+  "homepage": "https://github.com/ntua/saas2024-21#readme",
+  "dependencies": {
+    "amqplib": "^0.10.4",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
